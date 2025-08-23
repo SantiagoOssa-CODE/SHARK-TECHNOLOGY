@@ -46,6 +46,6 @@ document.querySelectorAll('.icon-hover').forEach(icon => {
     icon.style.transform = 'scale(1.1)';
   });
   icon.addEventListener('mouseleave', () => {
-    icon.style.transform = 'scale(1)';
+    icon.style.transform = 'scale';
     });
 });
