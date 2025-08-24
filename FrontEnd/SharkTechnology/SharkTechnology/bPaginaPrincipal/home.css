@@ -45,7 +45,7 @@ header {
   top: 0;
   z-index: 1000;
   background: rgba(0, 3, 16, 0.769);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -305,7 +305,7 @@ main {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 14px #033a8877, 0 0 2px #044ba89f;
+  text-shadow: 0 0 14px #011b3e77, 0 0 2px #064ba49f;
   animation: shine 2.5s infinite alternate;
   will-change: filter;
   z-index: -1;
@@ -344,7 +344,7 @@ main {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 14px #033a8877, 0 0 2px #044ba89f;
+  text-shadow: 0 0 14px #011b3e77, 0 0 2px #064ba49f;
   animation: shine 2.5s infinite alternate;
   will-change: filter;
   z-index: -1;
@@ -383,7 +383,7 @@ main {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 14px #033a8877, 0 0 2px #044ba89f;
+  text-shadow: 0 0 14px #011b3e77, 0 0 2px #064ba49f;
   animation: shine 2.5s infinite alternate;
   will-change: filter;
   z-index: -1;
@@ -422,7 +422,7 @@ main {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 14px #033a8877, 0 0 2px #044ba89f;
+  text-shadow: 0 0 14px #011b3e77, 0 0 2px #064ba49f;
   animation: shine 2.5s infinite alternate;
   will-change: filter;
   z-index: -1;
@@ -448,7 +448,7 @@ main {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 14px #033a8877, 0 0 2px #044ba89f;
+  text-shadow: 0 0 14px #011b3e77, 0 0 2px #064ba49f;
   animation: shine 2.5s infinite alternate;
   will-change: filter;
   z-index: -1;
@@ -485,7 +485,7 @@ footer {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
-  color: #00b0e5;
+  color: #04438b;
   transition: 
     background 0.3s ease,
     transform 0.3s ease,
@@ -503,7 +503,7 @@ footer {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #0051ff;
+  background-color: #053498;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
