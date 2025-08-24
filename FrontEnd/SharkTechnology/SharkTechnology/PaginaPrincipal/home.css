@@ -1,3 +1,14 @@
+:root {
+  --color-bg: #0a0f1c;
+  --color-accent: #00e0ff;
+  --color-text: #e0e0e0;
+  --color-hover: #00bcd4;
+  --color-card: rgba(255, 255, 255, 0.05);
+  --font-main: "Orbitron", sans-serif;
+  --transition-fast: 0.3s ease;
+  --transition-fast: 0.6s ease;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,23 +54,7 @@ header {
   border-radius: 0 0 30px 30px;
   box-shadow: 0 12px 30px rgba(0, 0, 50, 0.55);
   transition: all 0.4s ease;
-  animation: fadeDown 0.6s ease forwards;
-
-  /* position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: rgba(0, 3, 21, 0.769); 
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 140px;
-  padding: 20px 50px;
-  border-radius: 0 0 45px 45px;
-  box-shadow: 0 12px 30px rgba(0, 0, 50, 0.55);
-  position: relative;
-  transition: all 0.4s ease;
-  animation: fadeDown 0.6s ease forwards; */
+  /* animation: fadeDown 0.6s ease forwards; */
 }
 
 @keyframes fadeDown {
@@ -98,6 +93,10 @@ header {
   will-change: filter;
   margin-top: -168px;
   margin-left: 110px;
+}
+
+.site-title h1 span {
+  color: var(--color-text);
 }
 
 @keyframes shine {
@@ -155,14 +154,14 @@ nav ul li ul {
     transform: translateX(-50%);
     margin-top: 6px;
     margin-left: -70px;
-    background: rgba(0, 3, 16, 0.769);
+    background: rgba(0, 3, 16, 0.884);
     /* background: rgba(1, 2, 28, 0.868); */
     /* background: rgba(0, 44, 87, 0.95); */
     border-radius: 20px;
     min-width: 250px;
     padding: 10px 10px; /* cambiar */
     box-shadow: 0 6px 18px rgba(0, 2, 47, 0.672);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
 }
 
 nav ul li:hover ul {
@@ -316,6 +315,7 @@ main {
   text-align: left;
   font-size: 25px;
   margin-top: 20px;
+  margin-left: 15px;
   line-height: 40px;
 }
 
@@ -328,7 +328,7 @@ main {
 
 .section-hardware ul li strong {
   color: #316ab1;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .section-software h2 {
@@ -354,6 +354,7 @@ main {
   text-align: left;
   font-size: 25px;
   margin-top: 20px;
+  margin-left: 15px;
   line-height: 40px;
 }
 
@@ -366,7 +367,7 @@ main {
 
 .section-software ul li strong {
   color: #316ab1;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .section-tecnologia h2 {
@@ -392,6 +393,7 @@ main {
   text-align: left;
   font-size: 25px;
   margin-top: 20px;
+  margin-left: 15px;
   line-height: 40px;
 }
 
@@ -399,12 +401,12 @@ main {
   text-align: left;
   list-style: none;
   margin-left: 640px;
-  margin-top: -215px;
+  margin-top: -255px;
 }
 
 .section-tecnologia ul li strong {
   color: #316ab1;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .section-sharkbot h2 {
@@ -509,4 +511,14 @@ footer {
 
 .footer-links a:hover::after {
   transform: scaleX(1);
+}
+
+#header {
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+header.hide,
+#header.hide {
+  transform: translateY(-100%);
+  opacity: 0;
 }

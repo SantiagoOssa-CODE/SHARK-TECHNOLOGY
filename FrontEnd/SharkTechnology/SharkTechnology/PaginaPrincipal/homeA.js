@@ -14,7 +14,7 @@ document.querySelectorAll('.section').forEach(section => {
 /* ========== Header comprimido al hacer scroll ========== */
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.main-header');
-  if (window.scrollY > 50) {
+  if (window.scrollY > 20) {
     header.classList.add('scrolled');
   } else {
     header.classList.remove('scrolled');
@@ -41,7 +41,7 @@ document.querySelectorAll('.fade-in-up').forEach(el => {
 
 /* ========== Hover dinámico en íconos (opcional para expansión futura) ========== */
 // Ejemplo: animar íconos con clase .icon-hover
-document.querySelectorAll('.icon-hover').forEach(icon => {
+document.querySelectorAll('.icon').forEach(icon => {
   icon.addEventListener('mouseenter', () => {
     icon.style.transform = 'scale(1.1)';
   });

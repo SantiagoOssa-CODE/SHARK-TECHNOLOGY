@@ -48,6 +48,7 @@ body {
     align-items: center;
     text-align: center;
     padding-inline: 20px;
+    backdrop-filter: blur(4px);
 }
 
 .overlay {
@@ -83,7 +84,7 @@ body {
     will-change: filter;
 }
 
-span {
+.contenido h1 span {
     color: var(--color-text);
 }
 
